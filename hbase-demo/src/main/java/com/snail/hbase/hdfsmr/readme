@@ -1,0 +1,29 @@
+
+) hbase中 如  hdfs-->emp  
+
+工程打包上传
+
+在Linux 中
+1）导入环境变量
+export HBASE_HOME=/root/hd/hbase-1.3.0
+export HADOOP_HOME=/root/hd/hadoop-2.8.4
+export HADOOP_CLASSPATH=`${HBASE_HOME}/bin/hbase mapredcp`
+
+可以添加到：hbase-env.sh
+
+
+1）在hdfs中创建文件夹 导入本地数据
+	emp.tsv	 
+	1	mike	20
+	2	arry	21
+	3	tom 	22
+ 
+hdfs dfs -put emp.tsv /
+
+2)创建表
+create 'emp','info'
+启动任务
+
+yarn jar lib/hbase-server-1.3.1.jar importtsv -Dimporttsv.columns=HBASE_ROW_KEY,info:name,info:age \ 
+emp hdfs://master:9000/emp.tsv
+
