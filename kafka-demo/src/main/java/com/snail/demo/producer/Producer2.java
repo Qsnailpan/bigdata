@@ -19,7 +19,8 @@ public class Producer2 {
 
 		// 参数配置
 		// kafka节点的地址
-		prop.put("bootstrap.servers", "192.168.112.10:9092");
+		prop.put("bootstrap.servers", "192.168.35.10:9092");
+		
 		// 发送消息是否等待应答
 		prop.put("acks", "all");
 		// 配置发送消息失败重试
@@ -33,7 +34,7 @@ public class Producer2 {
 		// 消息在发送前必须序列化
 		prop.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
 		prop.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
-		prop.put("partitioner.class", "com.itstar.kafka.kafka_producer.Patition1");
+//		prop.put("partitioner.class", "com.itstar.kafka.kafka_producer.Patition1");
 
 		// 2.实例化producer
 		KafkaProducer<String, String> producer = new KafkaProducer<String, String>(prop);

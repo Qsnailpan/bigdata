@@ -18,10 +18,9 @@ public class Producer1 {
 
 		// 1.配置生产者属性（指定多个参数）
 		Properties prop = new Properties();
-
 		// 参数配置
 		// kafka节点的地址
-		prop.put("bootstrap.servers", "192.168.112.10:9092");
+		prop.put("bootstrap.servers", "192.168.35.10:9092");
 		// 发送消息是否等待应答
 		prop.put("acks", "all");
 		// 配置发送消息失败重试
@@ -43,8 +42,8 @@ public class Producer1 {
 		KafkaProducer<String, String> producer = new KafkaProducer<String, String>(prop);
 
 		// 3.发送消息
-		for (int i = 0; i < 99; i++) {
-			producer.send(new ProducerRecord<String, String>("mytopic", "lipanvvvu-" + i));
+		for (int i = 0; i < 1; i++) {
+			producer.send(new ProducerRecord<String, String>("firstTopic", "lipanvvvu-" + i));
 		}
 
 		// 4.释放资源

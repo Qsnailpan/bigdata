@@ -1,4 +1,0 @@
-com\snail\demo\storm\WordCountSplitBolt.class
-com\snail\demo\storm\WordCountBoltCount.class
-com\snail\demo\storm\WordCountDriver.class
-com\snail\demo\storm\WordCountSpout.class
