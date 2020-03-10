@@ -10,11 +10,6 @@ import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
-/**
- * @author Hunter
- * @date 2018年10月29日 下午10:45:44
- * @version 1.0
- */
 public class TableDriver {
 	public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
 		// 1.获取job信息
@@ -27,7 +22,7 @@ public class TableDriver {
 		// 3.获取自定义的mapper与reducer类
 		job.setMapperClass(TableMapper.class);
 		job.setReducerClass(TableReducer.class);
-		
+
 		job.setMapOutputKeyClass(Text.class);
 		job.setMapOutputValueClass(TableBean.class);
 

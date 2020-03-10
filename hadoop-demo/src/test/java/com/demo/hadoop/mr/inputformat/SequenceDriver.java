@@ -12,8 +12,10 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.SequenceFileOutputFormat;
 
 /**
- * @author Hunter
- * @date 2018年10月27日 下午10:05:12
+ * @author: create by lipan
+ * @version: v1.0
+ * @description: TODO:()
+ * @date:2020年3月10日
  * @version 1.0
  */
 public class SequenceDriver {
@@ -28,10 +30,10 @@ public class SequenceDriver {
 		// 3.获取自定义的mapper与reducer类
 		job.setMapperClass(SequenceFileMapper.class);
 		job.setReducerClass(SequenceFileReducer.class);
-		
-		//设置自定义读取方式
+
+		// 设置自定义读取方式
 		job.setInputFormatClass(FuncFileInputFormat.class);
-		//设置默认的输出方式
+		// 设置默认的输出方式
 		job.setOutputFormatClass(SequenceFileOutputFormat.class);
 
 		// 4.设置map输出的数据类型

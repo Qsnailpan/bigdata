@@ -1,9 +1,10 @@
 package com.demo.hadoop.hdfs05;
+
 /**
- * @author Hunter
- * @date 2018年10月17日 下午9:56:21
- * @version 1.0
- * 
+ * @author: create by lipan
+ * @version: v1.0
+ * @description: TODO:(简单描述下:)
+ * @date:2020年3月10日
  * 思路？
  * 数据传输的类
  * 封装数据

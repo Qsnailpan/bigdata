@@ -16,10 +16,12 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * @author Hunter
- * @date 2018年10月13日 下午8:37:20
- * @version 1.0
+ * @author: create by lipan
+ * @version: v1.0
+ * @description: TODO:(简单描述下: hdfs api 操作示例 demo)
+ * @date:2020年3月10日
  */
+
 public class HdfsClientTest {
 
 	FileSystem fs = null;
@@ -37,7 +39,7 @@ public class HdfsClientTest {
 		conf.set("dfs.blocksize", "64m");
 
 		// 4.构造客户端
-		fs = FileSystem.get(new URI("hdfs://192.168.112.10:9000/"), conf, "root");
+		fs = FileSystem.get(new URI("hdfs://192.168.205.12:9000/"), conf, "root");
 
 	}
 
@@ -47,7 +49,7 @@ public class HdfsClientTest {
 	@Test
 	public void hdfsMkdir() throws IllegalArgumentException, IOException {
 		// 1.调用创建文件夹方法
-		fs.mkdirs(new Path("/hunterhenshuai"));
+		fs.mkdirs(new Path("/mkdir_tmp"));
 		// 2.关闭资源
 		fs.close();
 	}
@@ -58,29 +60,18 @@ public class HdfsClientTest {
 	@Test
 	public void hdfsRename() throws IllegalArgumentException, IOException {
 		// 1.调用移动并修改
-		fs.rename(new Path("/hdfs-site.xml"), new Path("/hunterhenshuai/hdfs.xml"));
+		fs.rename(new Path("/README.md"), new Path("/mkdir_tmp/README_tmp.md"));
 		// 2.关闭资源
 		fs.close();
 	}
 
 	/*
-	 * 在hdfs中删除文件夹 hdfs dfs -rm -r /
-	 */
-	@Test
-	public void hdfsRm() throws IllegalArgumentException, IOException {
-		// fs.delete(new Path("/hunterhenshuai"));
-		// 1.调用删除文件方法 参数1：删除的路径 参数2：是否递归删除
-		fs.delete(new Path("/words11.txt"), true);
-		fs.close();
-	}
-
-	/*
-	 * 查询hdfs下制定的目录信息
+	 * 查询hdfs下指定的目录信息
 	 */
 	@Test
 	public void hdfsLs() throws FileNotFoundException, IllegalArgumentException, IOException {
 		// 1.调用方法 返回远程迭代器
-		RemoteIterator<LocatedFileStatus> iter = fs.listFiles(new Path("/"), true);
+		RemoteIterator<LocatedFileStatus> iter = fs.listFiles(new Path("/mkdir_tmp/README_tmp.md"), true);
 
 		// 2.取迭代器数据
 		while (iter.hasNext()) {
@@ -103,6 +94,7 @@ public class HdfsClientTest {
 	/*
 	 * 判断文件还是文件夹
 	 */
+
 	@Test
 	public void findAtHdfs() throws FileNotFoundException, IllegalArgumentException, IOException {
 		// 1.展示状态信息
@@ -119,6 +111,17 @@ public class HdfsClientTest {
 			}
 
 		}
+	}
+
+	/*
+	 * 在hdfs中删除文件夹 hdfs dfs -rm -r /
+	 */
+	@Test
+	public void hdfsRm() throws IllegalArgumentException, IOException {
+		// fs.delete(new Path("/hunterhenshuai"));
+		// 1.调用删除文件方法 参数1：删除的路径 参数2：是否递归删除
+		fs.delete(new Path("/mkdir_tmp"), true);
+		fs.close();
 	}
 
 }

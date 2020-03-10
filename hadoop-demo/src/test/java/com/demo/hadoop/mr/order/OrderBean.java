@@ -6,11 +6,6 @@ import java.io.IOException;
 
 import org.apache.hadoop.io.WritableComparable;
 
-/**
- * @author Hunter
- * @date 2018年10月26日 下午8:31:59
- * @version 1.0
- */
 public class OrderBean implements WritableComparable<OrderBean> {
 
 	// 定义属性

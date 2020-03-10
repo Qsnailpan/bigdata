@@ -19,20 +19,21 @@ import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.fs.RemoteIterator;
 
 /**
- * @author Hunter
- * @date 2018年10月17日 下午9:30:04
- * @version 1.0
+ * @author: create by lipan
+ * @version: v1.0
+ * @description: TODO:(简单描述下: )
+ * @date:2020年3月10日
  * 
- *          需求：文件(hello itstar hello hunter hello hunter henshuai ) 统计每个单词出现的次数？
- *          数据存储在hdfs、统计出来的结果存储到hdfs
+ *                  需求：文件(hello itstar hello hunter hello hunter henshuai )
+ *                  统计每个单词出现的次数？ 数据存储在hdfs、统计出来的结果存储到hdfs
  * 
- *          2004google:dfs/bigtable/mapreduce
+ *                  2004google:dfs/bigtable/mapreduce
  * 
- *          大数据解决的问题？ 1.海量数据的存储 hdfs 2.海量数据的计算 mapreduce
+ *                  大数据解决的问题？ 1.海量数据的存储 hdfs 2.海量数据的计算 mapreduce
  * 
- *          思路？ hello 1 itstar 1 hello 1 ...
+ *                  思路？ hello 1 itstar 1 hello 1 ...
  * 
- *          基于用户体验： 用户输入数据（hdfs） 用户处理的方式 用户指定结果数据存储位置
+ *                  基于用户体验： 用户输入数据（hdfs） 用户处理的方式 用户指定结果数据存储位置
  * 
  */
 public class HdfsWordCount {
@@ -67,7 +68,6 @@ public class HdfsWordCount {
 			String line = null;
 
 			while ((line = br.readLine()) != null) {
-
 				// 调用map方法执行业务逻辑
 				mapper.map(line, context);
 			}

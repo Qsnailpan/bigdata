@@ -6,19 +6,14 @@ import java.io.IOException;
 
 import org.apache.hadoop.io.Writable;
 
-/**
- * @author Hunter
- * @date 2018年10月29日 下午10:09:06
- * @version 1.0
- */
-public class TableBean implements Writable{
-	//封装对应字段
-	private String order_id;//订单id
-	private String pid;//产品id
-	private int amount;//产品数量
-	private String pname;//产品名称
-	private String flag;//判断是订单表还是商品表
-	
+public class TableBean implements Writable {
+	// 封装对应字段
+	private String order_id;// 订单id
+	private String pid;// 产品id
+	private int amount;// 产品数量
+	private String pname;// 产品名称
+	private String flag;// 判断是订单表还是商品表
+
 	public TableBean() {
 		super();
 	}
@@ -77,14 +72,12 @@ public class TableBean implements Writable{
 		amount = in.readInt();
 		pname = in.readUTF();
 		flag = in.readUTF();
-	
+
 	}
 
 	@Override
 	public String toString() {
 		return order_id + "\t" + pname + "\t" + amount;
 	}
-	
-	
-	
+
 }

@@ -9,13 +9,14 @@ import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 
 /**
- * @author Hunter
- * @date 2018年10月13日 下午8:10:50
- * @version 1.0
+ * @author: create by lipan
+ * @version: v1.0
+ * @description: TODO:(简单描述下: hdfs 文件下载到本地磁盘 demo)
+ * @date:2020年3月10日
  * 
- *          注意：1.需要配置hadoop环境 2.需要编译好的winutil包导入bin
- * 
+ *                  注意：1.需要配置hadoop环境 2.需要编译好的winutil包导入bin
  */
+
 public class HdfsClientDemo02 {
 	public static void main(String[] args) throws IOException, InterruptedException, URISyntaxException {
 
@@ -29,10 +30,10 @@ public class HdfsClientDemo02 {
 		conf.set("dfs.blocksize", "64m");
 
 		// 4.构造客户端
-		FileSystem fs = FileSystem.get(new URI("hdfs://192.168.50.183:9000/"), conf, "root");
+		FileSystem fs = FileSystem.get(new URI("hdfs://192.168.205.12:9000/"), conf, "root");
 
 		// 5.hdfs数据下载到windows本地
-		fs.copyToLocalFile(new Path("/hdfs-site.xml"), new Path("c:/"));
+		fs.copyToLocalFile(new Path("/README.md"), new Path("d:/"));
 
 		// 6.关闭资源
 		fs.close();

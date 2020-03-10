@@ -10,11 +10,6 @@ import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
-/**
- * @author Hunter
- * @date 2018年10月29日 下午8:56:37
- * @version 1.0
- */
 public class FileDriver {
 	public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
 		// 1.获取job信息
@@ -35,8 +30,8 @@ public class FileDriver {
 		// 5.设置reduce输出的数据类型（最终的数据类型）
 		job.setOutputKeyClass(Text.class);
 		job.setOutputValueClass(NullWritable.class);
-		
-		//设置自定outputFormat
+
+		// 设置自定outputFormat
 		job.setOutputFormatClass(FuncFileOutputFormat.class);
 
 		// 6.设置输入存在的路径与处理后的结果路径

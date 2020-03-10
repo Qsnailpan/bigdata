@@ -11,16 +11,15 @@ import org.apache.hadoop.mapreduce.RecordReader;
 import org.apache.hadoop.mapreduce.TaskAttemptContext;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 
- 
 //1.创建自定义inputformat 
-public class FuncFileInputFormat extends FileInputFormat<NullWritable, BytesWritable>{
+public class FuncFileInputFormat extends FileInputFormat<NullWritable, BytesWritable> {
 
 	@Override
-	protected boolean isSplitable(JobContext context,Path filename) {
-		//不切原来的文件
+	protected boolean isSplitable(JobContext context, Path filename) {
+		// 不切原来的文件
 		return false;
 	}
-	
+
 	@Override
 	public RecordReader<NullWritable, BytesWritable> createRecordReader(InputSplit split, TaskAttemptContext context)
 			throws IOException, InterruptedException {

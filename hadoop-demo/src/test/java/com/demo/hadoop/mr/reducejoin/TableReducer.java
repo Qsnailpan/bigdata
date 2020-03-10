@@ -9,11 +9,6 @@ import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
-/**
- * @author Hunter
- * @date 2018年10月29日 下午10:32:12
- * @version 1.0
- */
 public class TableReducer extends Reducer<Text, TableBean, TableBean, NullWritable> {
 
 	@Override
