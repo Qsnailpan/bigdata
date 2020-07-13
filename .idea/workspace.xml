@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:demo" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:storm-demo" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:zk-demo" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9ac67cb5-6516-4167-85b2-ba49127a39d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/bigdata.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/demo/hadoop/hdfs02/HdfsClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/hadoop/hdfs02/HdfsClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hbase-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hbase-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hive-demo/bin/jdbc/JDBCUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hive-demo/bin/jdbc/TestHive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hive-demo/bin/udf/CheckSalaryGrade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hive-demo/bin/udf/MyConcatString.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../sys/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="F:\sys\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1dzhznpxYgxdJFd7ZSXlfARX1lO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Scala REPL" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="bigdata" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="javaOptions" value="-Djline.terminal=NONE" />
+      <option name="myConsoleArgs" value="" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Scala REPL.Scala REPL" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ac67cb5-6516-4167-85b2-ba49127a39d4" name="Default Changelist" comment="" />
+      <created>1593434094433</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593434094433</updated>
+      <workItem from="1593434106494" duration="2515000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="484" y="257" width="926" height="574" key="#Big_Data_Tools_Connections" timestamp="1593436185446">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="484" y="257" width="926" height="574" key="#Big_Data_Tools_Connections/0.0.1920.1050@0.0.1920.1050" timestamp="1593436185446" />
+    <state x="842" y="386" width="627" height="396" key="#Notifications" timestamp="1593434141566">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="842" y="386" width="627" height="396" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1593434141566" />
+    <state x="703" y="439" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1593434489011">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="703" y="439" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1593434489011" />
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom" timestamp="1593436628263">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1593436628263" />
+    <state width="1877" height="203" key="GridCell.Tab.0.center" timestamp="1593436628263">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1593436628263" />
+    <state width="1877" height="203" key="GridCell.Tab.0.left" timestamp="1593436628263">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1593436628263" />
+    <state width="1877" height="203" key="GridCell.Tab.0.right" timestamp="1593436628263">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1593436628263" />
+    <state width="1877" height="203" key="GridCell.Tab.1.bottom" timestamp="1593436628263">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="203" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1593436628263" />
+    <state width="1877" height="203" key="GridCell.Tab.1.center" timestamp="1593436628263">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="203" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1593436628263" />
+    <state width="1877" height="203" key="GridCell.Tab.1.left" timestamp="1593436628263">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="203" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1593436628263" />
+    <state width="1877" height="203" key="GridCell.Tab.1.right" timestamp="1593436628263">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="203" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1593436628263" />
+    <state x="461" y="169" key="SettingsEditor" timestamp="1593436302465">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1593436302465" />
+    <state x="753" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593435423567">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="753" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1593435423567" />
+  </component>
+</project>
